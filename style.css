@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+
+
+:root {
+    --cor-tema: #f8ea9cc0;
+    --cor-fonte-azul: #266cec;
+    --cor--branca: rgba(255, 255, 255, 0.726);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.container {
+    font-family: 'Jost', sans-serif;
+}
+
+.cabecalio {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cabecalio__info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 15rem;
+}
+
+
+.cabecalio__lista {
+    font-size: 0.8rem;
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.lista__esquerda {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.cabecalio__navegacao__usuario {
+    background-color: var(--cor-tema);
+    padding: 0.5rem 15rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.navegacao__usuario__superior {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.navegacao__usuario__superior__icone__pet__shop {
+    width: 60px;
+    height:60px;
+}
+
+.navegacao__usuario__superior__caixa__pesquisa {
+    display: flex;
+    background-color: white;
+    height: 40px;
+    width: 70%;
+    border-radius: 5px;
+    padding: 0;
+    border: 0;
+}
+.navegacao__usuario__superior__caixa__pesquisa__input {
+    border-radius: 5px;
+    margin: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.navegacao__usuario__superior__caixa__pesquisa__procurar {
+    width: 30px;
+    margin: 5px;
+}
+
+
+.navegacao__usuario__superior__login__usuario {
+    text-align: center;
+    height: 40px;
+    background-color: var(--cor--branca);
+    display: flex;
+    border-radius: 5px;
+}
+
+.navegacao__usuario__superior__login__usuario__botoes {
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap:2px
+}
+
+
+.navegacao__usuario__superior__icone {
+    display: flex;
+}
+
+.navegacao__usuario__superior__icone img {
+    height: 25px;
+}
+
+
+.navegacao__usuario__inferior {
+    display: flex;
+    gap: 2rem;
+}
